@@ -12,7 +12,7 @@ sleep 10
 
 termux-toast -b red -c yellow "Merhaba"
 	sleep 2
-	termux-toast -b red -c yellow  "Ben Kaya Root ve Yaman Efkarın"
+	termux-toast -b red -c yellow  "Ben Kaya Root ve Yaman Efkarın Yapay Zekasıyım"
 	sleep 2
 	termux-toast -b red -c yellow  "10 saniye sonra tool için gerekli tüm paketleri,senin için hazırlamaya başlamış olucağım."
 	sleep 4
@@ -70,17 +70,7 @@ banner(){
 	\tCode: YamanEfkar\033[31;40;1m
 	¸.•*´¨`*•.¸¸.•*´¨`*•¸.•*´¨`*•.¸
 	░
-	░\e[31m[\e[37m01\e[31m]\e[37mExploit\033[31;40;1m
-	░
-	░\e[31m[\e[37m02\e[31m]\e[37mPhishing\033[31;40;1m
-	░
-	░\e[31m[\e[37m03\e[31m]\e[37mBruteForce\033[31;40;1m
-	░
-	░\e[31m[\e[37m04\e[31m]\e[37mDos & Ddos\033[31;40;1m
-	░
-	░\e[31m[\e[37m05\e[31m]\e[37mPentest\033[31;40;1m
-	░
-	░\e[31m[\e[37m06\e[31m]\e[37mTermux Api\033[31;40;1m
+	░\e[31m[\e[37m01\e[31m]\e[37mPentest\033[31;40;1m
 	░
 	░¸.•*´¨`*•.¸¸.•*´¨`*•¸.•*´¨`*•.
 
