@@ -12,7 +12,7 @@ sleep 10
 
 termux-toast -b red -c yellow "Merhaba"
 	sleep 2
-	termux-toast -b red -c yellow  "Ben Kaya Root ve Yaman Efkarın"
+	termux-toast -b red -c yellow  "Ben Kaya Root ve Yaman Efkarın Yapay Zekasıyım"
 	sleep 2
 	termux-toast -b red -c yellow  "10 saniye sonra tool için gerekli tüm paketleri,senin için hazırlamaya başlamış olucağım."
 	sleep 4
@@ -85,16 +85,16 @@ banner(){
 cd $HOME/T-U-R-K/
 if [[ -e "update/ok.txt" ]]; then
 	banner
-	if [[ $islem_numarasi == 05 ||  $islem_numarasi == 1  ]]; then
+	if [[ $islem_numarasi == 09 ||  $islem_numarasi == 1  ]]; then
 		cd exploit/ && bash tst.sh
 
-	elif [[ $islem_numarasi == 02 ||  $islem_numarasi == 2  ]]; then
+	elif [[ $islem_numarasi == 10 ||  $islem_numarasi == 2  ]]; then
 		cd phishing/ && bash tst.sh
 
-	elif [[ $islem_numarasi == 03 ||  $islem_numarasi == 3  ]]; then
+	elif [[ $islem_numarasi == 08 ||  $islem_numarasi == 3  ]]; then
 		cd bruteforce/ && bash tst.sh
 
-	elif [[ $islem_numarasi == 04 ||  $islem_numarasi == 4  ]]; then
+	elif [[ $islem_numarasi == 07 ||  $islem_numarasi == 4  ]]; then
 		clear
 		read -p $'\e[31m▂\e[32m▃\e[31m▃\e[37m İp adresi : ' dos_ip
 		echo -e ""
@@ -106,7 +106,7 @@ if [[ -e "update/ok.txt" ]]; then
 	elif [[ $islem_numarasi == 01 ||  $islem_numarasi == 5  ]]; then
 		cd pentest/ && bash tst.sh
 
-	elif [[ $islem_numarasi == 06 ||  $islem_numarasi == 6  ]]; then
+	elif [[ $islem_numarasi == 11 ||  $islem_numarasi == 6  ]]; then
 		cd termux-api/ && bash tst.sh
 
 	elif [[ $islem_numarasi == 99 ||  $islem_numarasi == 9  ]]; then
