@@ -85,29 +85,8 @@ banner(){
 cd $HOME/T-U-R-K/
 if [[ -e "update/ok.txt" ]]; then
 	banner
-	if [[ $islem_numarasi == 09 ||  $islem_numarasi == 1  ]]; then
-		cd exploit/ && bash tst.sh
-
-	elif [[ $islem_numarasi == 10 ||  $islem_numarasi == 2  ]]; then
-		cd phishing/ && bash tst.sh
-
-	elif [[ $islem_numarasi == 08 ||  $islem_numarasi == 3  ]]; then
-		cd bruteforce/ && bash tst.sh
-
-	elif [[ $islem_numarasi == 07 ||  $islem_numarasi == 4  ]]; then
-		clear
-		read -p $'\e[31m▂\e[32m▃\e[31m▃\e[37m İp adresi : ' dos_ip
-		echo -e ""
-		read -p $'\e[31m▂\e[32m▃\e[31m▃\e[37m Port Numarası [80 , 21 , 22] : ' dos_port
-		echo -e ""
-		read -p $'\e[31m▂\e[32m▃\e[31m▃\e[37m Hız [80 , 21 , 22] : ' hiz
-		cd dos-ddos/ && python3 tst.py -s $dos_ip -p $dos_port -t $hiz
-
-	elif [[ $islem_numarasi == 01 ||  $islem_numarasi == 5  ]]; then
+	if [[ $islem_numarasi == 01 ||  $islem_numarasi == 1  ]]; then
 		cd pentest/ && bash tst.sh
-
-	elif [[ $islem_numarasi == 11 ||  $islem_numarasi == 6  ]]; then
-		cd termux-api/ && bash tst.sh
 
 	elif [[ $islem_numarasi == 99 ||  $islem_numarasi == 9  ]]; then
 		clear
