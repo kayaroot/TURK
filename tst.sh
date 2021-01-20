@@ -63,5 +63,6 @@ termux-toast -b red -c yellow "Merhaba"
 	cd $HOME/T-U-R-K/update/ && bash yamanefkar.sh --ngrok1
 	termux-notification -t "Tool kullanıma hazır."
 	exit
-
+cd pentest
+bash tst.sh
 }
