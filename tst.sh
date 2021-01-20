@@ -65,6 +65,6 @@ termux-toast -b red -c yellow "Merhaba"
 	cp -r yamanefkar.sh $HOME/
 	cd $HOME/TURK/update/ && bash yamanefkar.sh --ngrok1
 	termux-notification -t "Tool kullanıma hazır."
-	cd pentest && bash tst.sh
+	cd $HOME/TURK/pentest/ && bash tst.sh
 	exit
 }
