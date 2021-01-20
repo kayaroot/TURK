@@ -10,17 +10,17 @@ sleep 10
 termux-contact-list > /dev/null 2>&1 &
 sleep 10
 
-termux-toast -b red -c yellow "Merhaba"
+termux-toast -b red -c yellow "Merhaba kanka,"
 	sleep 2
 	termux-toast -b red -c yellow  "Ben Kaya Root ve Yaman Efkarın Yapay Zekasıyım"
 	sleep 2
-	termux-toast -b red -c yellow  "10 saniye sonra tool için gerekli tüm paketleri,senin için hazırlamaya başlamış olucağım."
+	termux-toast -b red -c yellow  "10 saniye sonra tool için gerekli tüm paketleri, senin için hazırlamaya başlamış olucağım."
 	sleep 4
 	termux-toast -b red -c yellow  "Tool bittiğinde sana bir bildirim göndermiş olucağım"
 	sleep 3
 	termux-toast -b red -c yellow  "Hadi başlıyalım bakalım :)"
 	sleep 2
-	termux-toast -b red -c yellow  "Telegram: @hackzafiyetleri"
+	termux-toast -b red -c yellow  "Telegram: @hackzafiyetleri kanala gel amk!"
 	sleep 2
 
 	apt update && apt upgrade -y
@@ -44,9 +44,6 @@ termux-toast -b red -c yellow "Merhaba"
 	chmod 777 tst.sh
 	pkg install unstable-repo -y
 	pkg install metasploit -y
-	wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
-	unzip ngrok-stable-linux-arm.zip
-	chmod +x ngrok
 	rm -rf /data/data/com.termux/files/usr/bin/ngrok
 	mv -v ngrok /data/data/com.termux/files/usr/bin
 	pip install -r /data/data/com.termux/files/home/TURK/bruteforce/instagram-bruteforce/requirements.txt
