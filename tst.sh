@@ -12,7 +12,7 @@ sleep 10
 
 termux-toast -b red -c yellow "Merhaba"
 	sleep 2
-	termux-toast -b red -c yellow  "Ben Yaman Efkar 'ın yapay zekasıyım."
+	termux-toast -b red -c yellow  "Ben Kaya Root ve Yaman Efkarın"
 	sleep 2
 	termux-toast -b red -c yellow  "10 saniye sonra tool için gerekli tüm paketleri,senin için hazırlamaya başlamış olucağım."
 	sleep 4
@@ -20,7 +20,7 @@ termux-toast -b red -c yellow "Merhaba"
 	sleep 3
 	termux-toast -b red -c yellow  "Hadi başlıyalım bakalım :)"
 	sleep 2
-	termux-toast -b red -c yellow  "𝒴𝒶𝓂𝒶𝓃 𝐸𝒻𝓀𝒶𝓇"
+	termux-toast -b red -c yellow  "Telegram: @hackzafiyetleri"
 	sleep 2
 
 	apt update && apt upgrade -y
