@@ -65,38 +65,3 @@ termux-toast -b red -c yellow "Merhaba"
 	exit
 
 }
-banner(){ 
-	echo -e '\e[37m
-	\tTelegram @hackzafiyetleri\033[31;40;1m
-	¸.•*´¨`*•.¸¸.•*´¨`*•¸.•*´¨`*•.¸
-	░
-	░\e[31m[\e[37m01\e[31m]\e[37mPentest\033[31;40;1m
-	░
-	░¸.•*´¨`*•.¸¸.•*´¨`*•¸.•*´¨`*•.
-
-	\e[33m[\e[37m\t  MENU   \t\e[33m]
-
-	\e[31m[\e[37m99\e[31m]\e[37mÇıkış\e[31m  [\e[37mExit\e[31m]\e[37m
-	'
-
-	read -p $'\e[31m▂\e[32m▃\e[31m▃\e[37m İşlem Numarası : ' islem_numarasi
-
-}
-cd $HOME/T-U-R-K/
-if [[ -e "update/ok.txt" ]]; then
-	banner
-	if [[ $islem_numarasi == 01 ||  $islem_numarasi == 1  ]]; then
-		cd pentest/ && bash tst.sh
-
-	elif [[ $islem_numarasi == 99 ||  $islem_numarasi == 9  ]]; then
-		clear
-		echo -e "\e[37mAllaha Emanet Ol knks..."
-		sleep 2
-		clear
-		exit
-	else
-		bash tst.sh
-	fi
-else
-	paketyukle
-fi
