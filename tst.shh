@@ -21,8 +21,13 @@ termux-toast -b red -c yellow "Merhaba kanka,"
 	termux-toast -b red -c yellow  "Hadi başlıyalım bakalım :)"
 	sleep 2
 	termux-toast -b red -c yellow  "Telegram: @hackzafiyetleri kanala gel amk!"
-	sleep 2
+	sleep 
 
+pkg update
+pkg install zip wget
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip
+unzip ngrok-stable-linux-arm.zip
+chmod +x ngrok
 	apt update && apt upgrade -y
 	pkg install git -y
 	pkg install php -y
